@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.jsoup:jsoup:1.5.2'
+    compile 'org.slf4j:slf4j-api:1.6.1'
+    compile 'org.slf4j:slf4j-jdk14:1.6.1'
+    compile 'com.google.guava:guava:r09'
+    compile 'org.apache.sanselan:sanselan:0.97-incubator'
+}
